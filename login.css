@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.left{
+    display: flex;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.logo img{
+position: absolute;
+margin-top: 10px;
+margin-left: 20px;
+height: 150px;
+width: 150px;
+}
+
+.banner{
+    background: url(login.avif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner .waves{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+span{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+header{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    padding: 0 0 0 45px;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+i{
+    position: relative;
+    top: -50px;
+    left: 17px;
+    color: #fff;
+}
+
+::-webkit-input-placeholder{
+    color: #fff;
+}
+
+.submit{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: .3s;
+
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: medium;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.bottom a{
+    color: #fff;
+    text-decoration: none;
+}
+
+label a{
+    color: #fff;
+    text-decoration: none;
+}
+
+@media(max-width:700px){
+    .banner .waves{
+        display: none;
+    }
+}
